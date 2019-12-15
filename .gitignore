@@ -1,6 +1,5 @@
 # Libraries
 *.lvlibp
-*.llb
 
 # Shared objects (inc. Windows DLLs)
 *.dll

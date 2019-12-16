@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="_json_tmp.vi" Type="VI" URL="../_json_tmp.vi"/>
 		<Item Name="json_vi_tree.vi" Type="VI" URL="../json_vi_tree.vi"/>
+		<Item Name="test_json_decoder.vi" Type="VI" URL="../test_json_decoder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

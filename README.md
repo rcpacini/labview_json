@@ -40,10 +40,17 @@ Run the `tests\test.vi`
 
 ## YAJL (Yet Another JSON Library?!?):
 Yes, I understand there are a plethora of JSON libraries for LabVIEW.
-Why this one, you ask? Because many libraries available are overly
-complicated with unnecessary class abstraction and external
-dependencies. The focus for this library is KISS (Keep It Stupid Simple).
-No fuss, no mess, just easy to read code.
+Why this one, you ask? 
+Because LabVIEW's built in JSON libraries lack common operations many other 
+languages natively support (i.e. get, set, pop, list element navigation). 
+Because many libraries available are overly complicated with unnecessary class
+abstraction and external dependencies. :(
+Because many libraries try to use magic data types to identify primitives
+(i.e. Null) that only flummox basic usage.
+Because other libraries add maleware that require you to install crap all
+over the place.
+
+This a simple JSON library for anyone that wants to use it. Period.
 
 ![LabVIEW JSON Library](docs/imgs/labview_json_lvlib.png)
 

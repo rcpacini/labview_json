@@ -11,25 +11,31 @@ Created by: Ryan Pacini</Property>
 
 </Property>
 	<Item Name="Defs" Type="Folder">
-		<Item Name="Value Type.ctl" Type="VI" URL="../Value Type.ctl"/>
-		<Item Name="Value.ctl" Type="VI" URL="../Value.ctl"/>
+		<Item Name="Element Type.ctl" Type="VI" URL="../Element Type.ctl"/>
+		<Item Name="Element.ctl" Type="VI" URL="../Element.ctl"/>
+	</Item>
+	<Item Name="LVJSON" Type="Folder">
+		<Item Name="JSON to LVJSON.vi" Type="VI" URL="../JSON to LVJSON.vi"/>
+		<Item Name="LVJSON Create Root Path.vi" Type="VI" URL="../LVJSON Create Root Path.vi"/>
+		<Item Name="LVJSON Create.vi" Type="VI" URL="../LVJSON Create.vi"/>
+		<Item Name="LVJSON Find.vi" Type="VI" URL="../LVJSON Find.vi"/>
+		<Item Name="LVJSON Get.vi" Type="VI" URL="../LVJSON Get.vi"/>
+		<Item Name="LVJSON List.vi" Type="VI" URL="../LVJSON List.vi"/>
+		<Item Name="LVJSON Merge.vi" Type="VI" URL="../LVJSON Merge.vi"/>
+		<Item Name="LVJSON Pop.vi" Type="VI" URL="../LVJSON Pop.vi"/>
+		<Item Name="LVJSON Set.vi" Type="VI" URL="../LVJSON Set.vi"/>
+		<Item Name="LVJSON to JSON.vi" Type="VI" URL="../LVJSON to JSON.vi"/>
+		<Item Name="LVJSON to Variant.vi" Type="VI" URL="../LVJSON to Variant.vi"/>
+		<Item Name="Variant to LVJSON.vi" Type="VI" URL="../Variant to LVJSON.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Item Name="Create Array.vi" Type="VI" URL="../Create Array.vi"/>
-		<Item Name="Create Cluster.vi" Type="VI" URL="../Create Cluster.vi"/>
-		<Item Name="Escape.vi" Type="VI" URL="../Escape.vi"/>
-		<Item Name="ISO8601 to Timestamp.vi" Type="VI" URL="../ISO8601 to Timestamp.vi"/>
-		<Item Name="JSON to LVOBJ.vi" Type="VI" URL="../JSON to LVOBJ.vi"/>
-		<Item Name="LVOBJ Find.vi" Type="VI" URL="../LVOBJ Find.vi"/>
-		<Item Name="LVOBJ Get.vi" Type="VI" URL="../LVOBJ Get.vi"/>
-		<Item Name="LVOBJ List.vi" Type="VI" URL="../LVOBJ List.vi"/>
-		<Item Name="LVOBJ Set.vi" Type="VI" URL="../LVOBJ Set.vi"/>
-		<Item Name="LVOBJ to JSON.vi" Type="VI" URL="../LVOBJ to JSON.vi"/>
-		<Item Name="LVOBJ to Variant.vi" Type="VI" URL="../LVOBJ to Variant.vi"/>
-		<Item Name="Path Index.vi" Type="VI" URL="../Path Index.vi"/>
-		<Item Name="Timestamp to ISO8601.vi" Type="VI" URL="../Timestamp to ISO8601.vi"/>
-		<Item Name="Unescape.vi" Type="VI" URL="../Unescape.vi"/>
-		<Item Name="Variant to LVOBJ.vi" Type="VI" URL="../Variant to LVOBJ.vi"/>
+		<Item Name="JSON Escape.vi" Type="VI" URL="../JSON Escape.vi"/>
+		<Item Name="JSON ISO8601 to Timestamp.vi" Type="VI" URL="../JSON ISO8601 to Timestamp.vi"/>
+		<Item Name="JSON Key to Array Index.vi" Type="VI" URL="../JSON Key to Array Index.vi"/>
+		<Item Name="JSON Timestamp to ISO8601.vi" Type="VI" URL="../JSON Timestamp to ISO8601.vi"/>
+		<Item Name="JSON Unescape.vi" Type="VI" URL="../JSON Unescape.vi"/>
+		<Item Name="Variant Create Array.vi" Type="VI" URL="../Variant Create Array.vi"/>
+		<Item Name="Variant Create Cluster.vi" Type="VI" URL="../Variant Create Cluster.vi"/>
 	</Item>
 	<Item Name="JSON to Variant.vi" Type="VI" URL="../JSON to Variant.vi"/>
 	<Item Name="Variant to JSON.vi" Type="VI" URL="../Variant to JSON.vi"/>

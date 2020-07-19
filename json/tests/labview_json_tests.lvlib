@@ -11,9 +11,6 @@
 		<Item Name="_unittest Cache.vi" Type="VI" URL="../_unittest Cache.vi"/>
 		<Item Name="_unittest Report.vi" Type="VI" URL="../_unittest Report.vi"/>
 	</Item>
-	<Item Name="json path" Type="Folder">
-		<Item Name="test json path.vi" Type="VI" URL="../test json path.vi"/>
-	</Item>
 	<Item Name="json to variant" Type="Folder">
 		<Item Name="test json to variant array.vi" Type="VI" URL="../test json to variant array.vi"/>
 		<Item Name="test json to variant bool.vi" Type="VI" URL="../test json to variant bool.vi"/>
@@ -29,6 +26,9 @@
 		<Item Name="test json to variant uint.vi" Type="VI" URL="../test json to variant uint.vi"/>
 		<Item Name="test json to variant var.vi" Type="VI" URL="../test json to variant var.vi"/>
 		<Item Name="test json to variant.vi" Type="VI" URL="../test json to variant.vi"/>
+	</Item>
+	<Item Name="root path" Type="Folder">
+		<Item Name="test json path.vi" Type="VI" URL="../test json path.vi"/>
 	</Item>
 	<Item Name="variant to json" Type="Folder">
 		<Item Name="test variant to json array.vi" Type="VI" URL="../test variant to json array.vi"/>

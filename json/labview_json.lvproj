@@ -11,12 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="examples" Type="Folder">
-			<Item Name="_tmp.vi" Type="VI" URL="../examples/_tmp.vi"/>
-			<Item Name="_tmp2.vi" Type="VI" URL="../examples/_tmp2.vi"/>
-			<Item Name="_tmp3.vi" Type="VI" URL="../examples/_tmp3.vi"/>
-			<Item Name="_vi tree.vi" Type="VI" URL="../examples/_vi tree.vi"/>
-			<Item Name="LabVIEW JSON Example LVJSON Set.vi" Type="VI" URL="../examples/LabVIEW JSON Example LVJSON Set.vi"/>
+			<Item Name="LabVIEW JSON Example Modify.vi" Type="VI" URL="../examples/LabVIEW JSON Example Modify.vi"/>
 			<Item Name="LabVIEW JSON Example.vi" Type="VI" URL="../examples/LabVIEW JSON Example.vi"/>
+			<Item Name="LabVIEW JSON VI Tree.vi" Type="VI" URL="../examples/LabVIEW JSON VI Tree.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="labview_json.lvlib" Type="Library" URL="../lib/labview_json.lvlib"/>

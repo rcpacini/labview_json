@@ -11,20 +11,23 @@ Created by: Ryan Pacini</Property>
 
 </Property>
 	<Item Name="Defs" Type="Folder">
+		<Item Name="Element Set Behavior.ctl" Type="VI" URL="../Element Set Behavior.ctl"/>
 		<Item Name="Element Type.ctl" Type="VI" URL="../Element Type.ctl"/>
 		<Item Name="Element.ctl" Type="VI" URL="../Element.ctl"/>
 	</Item>
 	<Item Name="LVJSON" Type="Folder">
-		<Item Name="JSON to LVJSON.vi" Type="VI" URL="../JSON to LVJSON.vi"/>
+		<Item Name="Is Empty Object.vi" Type="VI" URL="../Is Empty Object.vi"/>
+		<Item Name="Is LVJSON.vi" Type="VI" URL="../Is LVJSON.vi"/>
 		<Item Name="LVJSON Create Root Path.vi" Type="VI" URL="../LVJSON Create Root Path.vi"/>
 		<Item Name="LVJSON Create.vi" Type="VI" URL="../LVJSON Create.vi"/>
+		<Item Name="LVJSON Dump.vi" Type="VI" URL="../LVJSON Dump.vi"/>
 		<Item Name="LVJSON Find.vi" Type="VI" URL="../LVJSON Find.vi"/>
 		<Item Name="LVJSON Get.vi" Type="VI" URL="../LVJSON Get.vi"/>
 		<Item Name="LVJSON List.vi" Type="VI" URL="../LVJSON List.vi"/>
+		<Item Name="LVJSON Load.vi" Type="VI" URL="../LVJSON Load.vi"/>
 		<Item Name="LVJSON Merge.vi" Type="VI" URL="../LVJSON Merge.vi"/>
 		<Item Name="LVJSON Pop.vi" Type="VI" URL="../LVJSON Pop.vi"/>
 		<Item Name="LVJSON Set.vi" Type="VI" URL="../LVJSON Set.vi"/>
-		<Item Name="LVJSON to JSON.vi" Type="VI" URL="../LVJSON to JSON.vi"/>
 		<Item Name="LVJSON to Variant.vi" Type="VI" URL="../LVJSON to Variant.vi"/>
 		<Item Name="Variant to LVJSON.vi" Type="VI" URL="../Variant to LVJSON.vi"/>
 	</Item>
@@ -36,7 +39,12 @@ Created by: Ryan Pacini</Property>
 		<Item Name="JSON Unescape.vi" Type="VI" URL="../JSON Unescape.vi"/>
 		<Item Name="Variant Create Array.vi" Type="VI" URL="../Variant Create Array.vi"/>
 		<Item Name="Variant Create Cluster.vi" Type="VI" URL="../Variant Create Cluster.vi"/>
+		<Item Name="Variant Preserve Type.vi" Type="VI" URL="../Variant Preserve Type.vi"/>
 	</Item>
+	<Item Name="JSON Get.vi" Type="VI" URL="../JSON Get.vi"/>
+	<Item Name="JSON List.vi" Type="VI" URL="../JSON List.vi"/>
+	<Item Name="JSON Pop.vi" Type="VI" URL="../JSON Pop.vi"/>
+	<Item Name="JSON Set.vi" Type="VI" URL="../JSON Set.vi"/>
 	<Item Name="JSON to Variant.vi" Type="VI" URL="../JSON to Variant.vi"/>
 	<Item Name="Variant to JSON.vi" Type="VI" URL="../Variant to JSON.vi"/>
 </Library>

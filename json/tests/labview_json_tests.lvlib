@@ -27,8 +27,11 @@
 		<Item Name="test json to variant var.vi" Type="VI" URL="../test json to variant var.vi"/>
 		<Item Name="test json to variant.vi" Type="VI" URL="../test json to variant.vi"/>
 	</Item>
-	<Item Name="root path" Type="Folder">
-		<Item Name="test json path.vi" Type="VI" URL="../test json path.vi"/>
+	<Item Name="lvjson" Type="Folder">
+		<Item Name="test lvjson get.vi" Type="VI" URL="../test lvjson get.vi"/>
+		<Item Name="test lvjson round trip.vi" Type="VI" URL="../test lvjson round trip.vi"/>
+		<Item Name="test lvjson set.vi" Type="VI" URL="../test lvjson set.vi"/>
+		<Item Name="test lvjson.vi" Type="VI" URL="../test lvjson.vi"/>
 	</Item>
 	<Item Name="variant to json" Type="Folder">
 		<Item Name="test variant to json array.vi" Type="VI" URL="../test variant to json array.vi"/>

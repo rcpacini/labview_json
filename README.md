@@ -1,7 +1,7 @@
 # labview_json
 Lightweight JSON library for LabVIEW.
 
-**No external dependencies, only 32 files, 659kB size**
+**No external dependencies, only 34 files, 851kB size**
 
 ## Features
 
@@ -13,8 +13,7 @@ Lightweight JSON library for LabVIEW.
 * Timestamp support as ISO8601 offset date time strings `yyyy-mm-ddThh:mm:ss.uuuuuu+zz:zz`.
 * Waveforms are objects with `{y0:TIMESTAMP, dt:DBL, Y:[DBL]}`.
 * The `Root Path` parameter fetches nested elements by object keys or array indexes without needing to define the data structures.
-* Use the `Element.ctl` cluster to return complex structures recursively.
-* Unicode is left unescaped `\uXXXX` (LabVIEW UTF-8 limitation)
+* Use the `LVJSON Element.ctl` cluster to return complex structures recursively.
 * __NO EXTERNAL DEPENDENCIES!!!__
 
 ## Supported Data Types
@@ -25,16 +24,13 @@ Lightweight JSON library for LabVIEW.
 * Floats (SGL, DBL, EXT)
 * Strings (STR, PTH, TIMESTAMP, U8ENUM, U16ENUM, U32ENUM)
 * Objects (CLUSTERS, WAVEFORMS, VARIANTS)
-* Arrays (1D)
+* Arrays (1D, 2D, nD...)
 
 ## API
 
-* `JSON to Variant.vi` - Imports JSON string to a LabVIEW Variant
-* `Variant to JSON.vi` - Exports LabVIEW Variant to JSON string
-* `JSON List.vi` - Lists the nested object keys or array indexes for easy navigation
-* `JSON Get.vi` - Gets an element
-* `JSON Set.vi` - Sets an element
-* `JSON Pop.vi` - Removes and returns an element
+* `JSON Unflatten.vi` - Unflattens JSON string to the LabVIEW Variant Data Type
+* `JSON Flatten.vi` - Flattens LabVIEW Variant Data Type to JSON string
+* `JSON Edit.vim` - Get, set or create LabVIEW Variant Data Types to/from JSON string
 
 ![LabVIEW JSON Library](docs/imgs/vi_tree.png)
 
@@ -70,4 +66,4 @@ This a self contained JSON library for anyone that wants it. Period.
 
 ![LabVIEW JSON Library](docs/imgs/library.png)
 
-Keep your feedback to yourself... nah, just kidding. Feedback is welcome.
+Problems, create a ticket. Suggestions, create a ticket. Anything else, create a ticket.

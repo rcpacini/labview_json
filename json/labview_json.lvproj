@@ -10,19 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="examples" Type="Folder">
-			<Item Name="LabVIEW JSON Example Modify.vi" Type="VI" URL="../examples/LabVIEW JSON Example Modify.vi"/>
-			<Item Name="LabVIEW JSON Example.vi" Type="VI" URL="../examples/LabVIEW JSON Example.vi"/>
-			<Item Name="LabVIEW JSON VI Tree.vi" Type="VI" URL="../examples/LabVIEW JSON VI Tree.vi"/>
+		<Item Name="examples" Type="Folder" URL="../examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="lib" Type="Folder">
-			<Item Name="labview_json.lvlib" Type="Library" URL="../lib/labview_json.lvlib"/>
+		<Item Name="lib" Type="Folder" URL="../lib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="tests" Type="Folder">
-			<Item Name="labview_json_tests.lvlib" Type="Library" URL="../tests/labview_json_tests.lvlib"/>
+		<Item Name="tests" Type="Folder" URL="../tests">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
